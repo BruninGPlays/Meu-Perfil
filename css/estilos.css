@@ -1,0 +1,59 @@
+/*0123456789ABCDEF*/
+@font-face {
+
+    font-family:Komika;
+    src:url('KOMIKAX_.ttf')
+
+
+}
+@font-face {
+
+    font-family: We-Love-Mom;
+    src:url('Coffee\ Extra.ttf');
+
+}
+:root {
+    --cor-fundo: #27a349;
+    --cor-texto: #bdff00;
+    --cor-titulo:#40fd00;
+    --cor-link:  #0c3b00;
+    --cor-borda: #815a2a;
+    --fonte-principal: We-Love-Mom;
+    --fonte-titulo: Komika;
+}
+body {
+    background-color: var(--cor-fundo) ;
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal) ;
+    font-size:larger;
+    width: 500px;
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+li{
+    color: var(--cor-link);
+}
+a{
+    color: var(--cor-link);
+}
+
+div{
+    text-align:center;
+}
+
+h1 {
+    color: var(--cor-titulo);
+    font-family: var(--fonte-titulo);
+}
+
+img {
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    border-style: groove;
+    border-color: var(--cor-borda);
+    
+
+}
